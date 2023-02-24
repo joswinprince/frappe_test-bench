@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CH-P1-.####",
+ "creation": "2023-02-10 10:01:32.843970",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date_initiated",
+  "system_affected",
+  "description_for_change_to_be_standardize",
+  "rationale_for_standardization",
+  "implementation_strategy",
+  "standardized_change_process",
+  "verificationtesting",
+  "comments_notes",
+  "section_break",
+  "technical_unit",
+  "business_unit",
+  "validation_unit",
+  "quality_unit"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_initiated",
+   "fieldtype": "Date",
+   "label": "Date Initiated"
+  },
+  {
+   "fieldname": "system_affected",
+   "fieldtype": "Data",
+   "label": "System affected"
+  },
+  {
+   "fieldname": "description_for_change_to_be_standardize",
+   "fieldtype": "Long Text",
+   "label": "Description for change to be standardize"
+  },
+  {
+   "fieldname": "rationale_for_standardization",
+   "fieldtype": "Long Text",
+   "label": "Rationale for standardization"
+  },
+  {
+   "fieldname": "implementation_strategy",
+   "fieldtype": "Long Text",
+   "label": "Implementation Strategy"
+  },
+  {
+   "fieldname": "standardized_change_process",
+   "fieldtype": "Long Text",
+   "label": "Standardized change Process"
+  },
+  {
+   "fieldname": "verificationtesting",
+   "fieldtype": "Data",
+   "label": "Verification/Testing"
+  },
+  {
+   "fieldname": "comments_notes",
+   "fieldtype": "Data",
+   "label": "Comments Notes"
+  },
+  {
+   "fieldname": "section_break",
+   "fieldtype": "Section Break",
+   "label": "Change Authorization"
+  },
+  {
+   "fieldname": "technical_unit",
+   "fieldtype": "Data",
+   "label": "Technical Unit"
+  },
+  {
+   "fieldname": "business_unit",
+   "fieldtype": "Data",
+   "label": "Business Unit"
+  },
+  {
+   "fieldname": "validation_unit",
+   "fieldtype": "Data",
+   "label": "Validation Unit"
+  },
+  {
+   "fieldname": "quality_unit",
+   "fieldtype": "Data",
+   "label": "Quality Unit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-10 10:38:55.687583",
+ "modified_by": "Administrator",
+ "module": "change Management",
+ "name": "standard change part 1",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2023-02-20 12:16:29.478562",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2023-02-20 15:37:31.670993",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "home-page",
+ "owner": "Administrator",
+ "page_name": "home-page",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Home"
+}
